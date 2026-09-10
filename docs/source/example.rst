@@ -13,14 +13,14 @@ Once you are logged onto the cluster, clone the c4h-dist repository:
 
 Next, build the container using podman:
 
+Replace ``<container_name>`` with a name of your choice.
+
 .. code-block:: bash
 
    cd c4h-dist
-   podman build --format docker -t code4hep-build -f Dockerfile . 
+   podman build --format docker -t <container_name> -f Dockerfile . 
 
 Once the container is built, run it using podman:
-
-Replace ``<container_name>`` with a name of your choice.
 
 .. code-block:: bash
 
