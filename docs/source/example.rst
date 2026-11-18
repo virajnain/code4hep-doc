@@ -9,7 +9,7 @@ Once you are logged onto the cluster, clone the c4h-dist repository:
 
 .. code-block:: bash
 
-   git clone https://github.com/c4h-dist.git
+   git clone https://github.com/code4hep/c4h-dist.git
 
 Next, build the container using podman:
 
